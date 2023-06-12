@@ -14,6 +14,7 @@
 		6A5F41842A34E5820095B209 /* TextBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F41832A34E5820095B209 /* TextBootCamp.swift */; };
 		6AEA7D8C2A3781CB00780E59 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA7D8B2A3781CB00780E59 /* ShapesBootcamp.swift */; };
 		6AEA7D8E2A37861900780E59 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA7D8D2A37861900780E59 /* ColorsBootcamp.swift */; };
+		6AEA7D902A37912200780E59 /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA7D8F2A37912200780E59 /* GradientBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6A5F41832A34E5820095B209 /* TextBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootCamp.swift; sourceTree = "<group>"; };
 		6AEA7D8B2A3781CB00780E59 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		6AEA7D8D2A37861900780E59 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		6AEA7D8F2A37912200780E59 /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				6AEA7D8D2A37861900780E59 /* ColorsBootcamp.swift */,
 				6A5F41792A34DF940095B209 /* Assets.xcassets */,
 				6A5F417B2A34DF940095B209 /* Preview Content */,
+				6AEA7D8F2A37912200780E59 /* GradientBootcamp.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				6AEA7D8C2A3781CB00780E59 /* ShapesBootcamp.swift in Sources */,
 				6A5F41782A34DF920095B209 /* ContentView.swift in Sources */,
 				6A5F41762A34DF920095B209 /* SwiftUIBasicsApp.swift in Sources */,
+				6AEA7D902A37912200780E59 /* GradientBootcamp.swift in Sources */,
 				6A5F41842A34E5820095B209 /* TextBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
