@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct InitializerBootcamp: View {
+    
+    let backgroundColor: Color
+    let count: Int
+    let title: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(count)")
+                .font(.largeTitle)
+                .foregroundColor(.white)
+                .underline()
+            
+            Text("\(title)")
+                .font(.headline)
+                .foregroundColor(.white)
+        }
+        .frame(width: 150, height: 150)
+        .background(backgroundColor)
+        .cornerRadius(10)
     }
 }
 
 #Preview {
-    InitializerBootcamp()
+    InitializerBootcamp(backgroundColor: .green, 
+                        count: 20, 
+                        title: "Grapes")
 }
